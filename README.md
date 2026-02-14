@@ -1,10 +1,8 @@
-# 🛡️ PCAP Storyteller
+<h1 align="center"> 🛡️ PCAP Storyteller </h1>
 
 **The Cyber Attack Storyteller**
 
 Transform PCAP network traffic into an interactive, visual storyboard of cyber attacks. Analyze network events, visualize attack patterns, detect threats, and generate professional reports.
-
-**Made By Kaif Tarasgar**
 
 ---
 
@@ -31,7 +29,7 @@ Transform PCAP network traffic into an interactive, visual storyboard of cyber a
 
 ---
 
-## � Screenshots
+## 📷 Screenshots
 
 <p align="center">
   <img src="Media/1.jpg" width="45%" />
@@ -44,7 +42,7 @@ Transform PCAP network traffic into an interactive, visual storyboard of cyber a
 
 ---
 
-## �📋 Requirements
+## 📋 Requirements
 
 - **Python 3.7+**
 - **Flask** - Web framework
@@ -273,7 +271,7 @@ For very large files, consider filtering by time range or protocol before analys
 
 ---
 
-## � Deployment
+## 🚀 Deployment
 
 You can deploy this application easily on **Render** (or Heroku, AWS).
 
@@ -288,7 +286,7 @@ That's it! Your PCAP Storyteller will be live in minutes.
 
 ---
 
-## �🙏 Acknowledgments
+## 🙏 Acknowledgments
 
 - [vis.js](https://visjs.org/) - Network visualization
 - [Scapy](https://scapy.net/) - Packet manipulation
@@ -300,13 +298,14 @@ That's it! Your PCAP Storyteller will be live in minutes.
 
 ## 👤 Connect with Author
 
-**Kaif Tarasgar**
+<h1 align="center"> Kaif Tarasgar </h1>
 
 <div style="display: flex; gap: 10px;">
 <a href="https://www.linkedin.com/in/kaif-tarasgar-0b5425326/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
 <a href="https://github.com/Kaif-T-200"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"></a>
 <a href="https://x.com/Kaif_T_200"><img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter"></a>
-<a href="#"><img src="https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=todoist&logoColor=white" alt="Portfolio"></a>
+<a href="https://kaif-t-200.github.io/Portfolio/"><img src="https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=todoist&logoColor=white" alt="Portfolio"></a>
+<a href="https://pcap-storyteller.onrender.com/"><img src="https://img.shields.io/badge/Live_Demo-Visit_Now-000000?style=for-the-badge&logo=render&logoColor=white" alt="Live Demo"></a>
 </div>
 
 ---
