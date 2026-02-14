@@ -1,0 +1,10 @@
+flask
+gunicorn
+scapy
+scapy-http
+reportlab
+python-docx
+requests
+geoip2
+maxminddb
+chart-studio

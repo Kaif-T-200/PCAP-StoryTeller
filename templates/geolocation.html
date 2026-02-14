@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Geolocation - Cyber Attack Storyteller</title>
+    <link rel="stylesheet" href="/static/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
+    <script src="/static/shared.js"></script>
+</head>
+<body class="geo-page">
+    <div class="container">
+        <header>
+            <h1>Cyber Attack Storyteller</h1>
+            <p>Geolocation Intelligence Map</p>
+        </header>
+
+        <div id="loading-msg" class="upload-area" style="text-align: center; color: #f39c12;">
+            Loading geolocation data...
+        </div>
+
+        <div id="geo-content" style="display:none;">
+            <div style="height: 600px; border-radius: 8px; overflow: hidden; margin-bottom: 20px; box-shadow: 0 2px 10px rgba(0,0,0,0.5);">
+                <div id="map" style="height: 100%;"></div>
+            </div>
+
+            <div class="upload-area">
+                <h3>IP Locations Summary</h3>
+                <div id="geo-list"></div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        let map;
+
+        async function loadGeoData() {
+            try {
+                const response = await fetch('/api/geoips');
+                const data = await response.json();
+
+                if (data.error) {
+                    document.getElementById('loading-msg').textContent = 'No data available. Analyze a PCAP first.';
+                    return;
+                }
+
+                renderMap(data.locations);
+                renderList(data.locations);
+                document.getElementById('geo-content').style.display = 'block';
+                document.getElementById('loading-msg').style.display = 'none';
+            } catch (err) {
+                document.getElementById('loading-msg').textContent = 'Error loading geolocation data';
+            }
+        }
+
+        function renderMap(locations) {
+            map = L.map('map').setView([20, 0], 2);
+            L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                attribution: '© OpenStreetMap',
+                maxZoom: 19
+            }).addTo(map);
+
+            locations.forEach(loc => {
+                if (loc.latitude && loc.longitude && loc.latitude !== 0) {
+                    const color = loc.type === 'private' ? '#2ecc71' : '#e74c3c';
+                    L.circleMarker([loc.latitude, loc.longitude], {
+                        radius: 6,
+                        fillColor: color,
+                        color: color,
+                        weight: 2,
+                        opacity: 0.8,
+                        fillOpacity: 0.7
+                    }).bindPopup(`<strong>${loc.ip}</strong><br/>${loc.country}${loc.city ? ', ' + loc.city : ''}`).addTo(map);
+                }
+            });
+        }
+
+        function renderList(locations) {
+            const geoList = document.getElementById('geo-list');
+            geoList.innerHTML = locations
+                .filter(loc => loc.type !== 'private')
+                .slice(0, 20)
+                .map(loc => `
+                    <div class="geo-item">
+                        <strong>${loc.ip}</strong>
+                        <p>${loc.country}${loc.city ? ', ' + loc.city : ''}</p>
+                        <p style="font-size: 0.85rem; color: #b0bec5;">${loc.org || loc.asn || 'Unknown'}</p>
+                    </div>
+                `).join('') || '<p style="color: #b0bec5;">Only internal IPs detected.</p>';
+        }
+
+        loadGeoData();
+    </script>
+
+    <style>
+        .geo-item {
+            background: #0f1a24;
+            border-left: 3px solid #e74c3c;
+            padding: 12px;
+            margin-bottom: 10px;
+            border-radius: 4px;
+        }
+
+        .geo-item p {
+            margin: 5px 0;
+            color: #e0e0e0;
+        }
+    </style>
+</body>
+
+</html>

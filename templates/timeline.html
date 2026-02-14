@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Timeline - Cyber Attack Storyteller</title>
+    <link rel="stylesheet" href="/static/style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/vis-timeline/7.7.0/vis-timeline-graph2d.min.css" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vis-timeline/7.7.0/vis-timeline-graph2d.min.js"></script>
+</head>
+<body class="timeline-page">
+    <div class="container">
+        <header>
+            <h1>Cyber Attack Storyteller</h1>
+            <p>Event Timeline</p>
+        </header>
+
+        <div id="timeline-empty" style="display:none;" class="upload-area">
+            No timeline data found. Please analyze a PCAP on the main page first.
+        </div>
+
+        <div id="timeline-dashboard">
+            <div class="main-panel">
+                <div class="timeline-panel timeline-only">
+                    <h2>Event Timeline</h2>
+                    <div id="timeline"></div>
+                </div>
+            </div>
+            <div id="details-panel">
+                <h3>Event Details</h3>
+                <pre id="details-content">Click an event to see details.</pre>
+            </div>
+        </div>
+    </div>
+    <script src="/static/timeline.js"></script>
+</body>
+
+</html>
