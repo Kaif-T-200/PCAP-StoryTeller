@@ -271,21 +271,6 @@ For very large files, consider filtering by time range or protocol before analys
 
 ---
 
-## 🚀 Deployment
-
-You can deploy this application easily on **Render** (or Heroku, AWS).
-
-1. **Fork/Clone** this repository to your GitHub.
-2. Sign up on [Render.com](https://render.com).
-3. Click **"New +"** → **"Web Service"**.
-4. Connect your GitHub repository.
-5. Render will automatically detect the configuration from `render.yaml`.
-6. Click **Create Web Service**.
-
-That's it! Your PCAP Storyteller will be live in minutes.
-
----
-
 ## 🙏 Acknowledgments
 
 - [vis.js](https://visjs.org/) - Network visualization
@@ -300,13 +285,18 @@ That's it! Your PCAP Storyteller will be live in minutes.
 
 <h1 align="center"> Kaif Tarasgar </h1>
 
-<div style="display: flex; gap: 10px;">
-<a href="https://www.linkedin.com/in/kaif-tarasgar-0b5425326/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
-<a href="https://github.com/Kaif-T-200"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"></a>
-<a href="https://x.com/Kaif_T_200"><img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter"></a>
-<a href="https://kaif-t-200.github.io/Portfolio/"><img src="https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=todoist&logoColor=white" alt="Portfolio"></a>
-<a href="https://pcap-storyteller.onrender.com/"><img src="https://img.shields.io/badge/Live_Demo-Visit_Now-000000?style=for-the-badge&logo=render&logoColor=white" alt="Live Demo"></a>
-</div>
+<p align="center">
+<a href="https://www.linkedin.com/in/kaif-tarasgar-0b5425326/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a>
+&nbsp;<b></b>&nbsp;
+<a href="https://github.com/Kaif-T-200"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"></a>
+&nbsp;<b></b>&nbsp;
+<a href="https://x.com/Kaif_T_200"><img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white"></a>
+&nbsp;<b></b>&nbsp;
+<a href="https://kaif-t-200.github.io/Portfolio/"><img src="https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=todoist&logoColor=white"></a>
+&nbsp;<b></b>&nbsp;
+<a href="https://pcap-storyteller.onrender.com/"><img src="https://img.shields.io/badge/Live_Demo-Visit_Now-000000?style=for-the-badge&logo=render&logoColor=white"></a>
+</p>
+
 
 ---
 
