@@ -1,0 +1,1985 @@
+{
+  "events": [
+    {
+      "id": 1,
+      "timestamp": 1771309314.562167,
+      "type": "DNS Query",
+      "source_ip": "10.0.2.15",
+      "dest_ip": "8.8.8.8",
+      "details": {
+        "query": "4x1axsx6fxzs.example.com",
+        "id": 0
+      },
+      "description": "DNS query for '4x1axsx6fxzs.example.com' from 10.0.2.15"
+    },
+    {
+      "id": 2,
+      "timestamp": 1771309314.550734,
+      "type": "DNS Query",
+      "source_ip": "10.0.2.15",
+      "dest_ip": "8.8.8.8",
+      "details": {
+        "query": "jcniqfinx0sh.example.com",
+        "id": 0
+      },
+      "description": "DNS query for 'jcniqfinx0sh.example.com' from 10.0.2.15"
+    },
+    {
+      "id": 3,
+      "timestamp": 1771309314.561578,
+      "type": "DNS Query",
+      "source_ip": "10.0.2.15",
+      "dest_ip": "8.8.8.8",
+      "details": {
+        "query": "5paazavxqhro.example.com",
+        "id": 0
+      },
+      "description": "DNS query for '5paazavxqhro.example.com' from 10.0.2.15"
+    },
+    {
+      "id": 4,
+      "timestamp": 1771309314.56649,
+      "type": "DNS Query",
+      "source_ip": "10.0.2.15",
+      "dest_ip": "8.8.8.8",
+      "details": {
+        "query": "kali.org",
+        "id": 0
+      },
+      "description": "DNS query for 'kali.org' from 10.0.2.15"
+    },
+    {
+      "id": 5,
+      "timestamp": 1771309314.572962,
+      "type": "DNS Query",
+      "source_ip": "10.0.2.15",
+      "dest_ip": "8.8.8.8",
+      "details": {
+        "query": "github.com",
+        "id": 0
+      },
+      "description": "DNS query for 'github.com' from 10.0.2.15"
+    },
+    {
+      "id": 6,
+      "timestamp": 1771309314.570385,
+      "type": "DNS Query",
+      "source_ip": "10.0.2.15",
+      "dest_ip": "8.8.8.8",
+      "details": {
+        "query": "microsoft.com",
+        "id": 0
+      },
+      "description": "DNS query for 'microsoft.com' from 10.0.2.15"
+    },
+    {
+      "id": 7,
+      "timestamp": 1771309314.555335,
+      "type": "DNS Query",
+      "source_ip": "10.0.2.15",
+      "dest_ip": "8.8.8.8",
+      "details": {
+        "query": "zm5xhsl94isb.example.com",
+        "id": 0
+      },
+      "description": "DNS query for 'zm5xhsl94isb.example.com' from 10.0.2.15"
+    },
+    {
+      "id": 8,
+      "timestamp": 1771309314.558806,
+      "type": "DNS Query",
+      "source_ip": "10.0.2.15",
+      "dest_ip": "8.8.8.8",
+      "details": {
+        "query": "sna89vy2usi0.example.com",
+        "id": 0
+      },
+      "description": "DNS query for 'sna89vy2usi0.example.com' from 10.0.2.15"
+    },
+    {
+      "id": 9,
+      "timestamp": 1771309314.556565,
+      "type": "DNS Query",
+      "source_ip": "10.0.2.15",
+      "dest_ip": "8.8.8.8",
+      "details": {
+        "query": "4j7j0esdghq8.example.com",
+        "id": 0
+      },
+      "description": "DNS query for '4j7j0esdghq8.example.com' from 10.0.2.15"
+    },
+    {
+      "id": 10,
+      "timestamp": 1771309314.548953,
+      "type": "DNS Query",
+      "source_ip": "10.0.2.15",
+      "dest_ip": "8.8.8.8",
+      "details": {
+        "query": "fxclq92hr2to.example.com",
+        "id": 0
+      },
+      "description": "DNS query for 'fxclq92hr2to.example.com' from 10.0.2.15"
+    },
+    {
+      "id": 11,
+      "timestamp": 1771309314.551214,
+      "type": "DNS Query",
+      "source_ip": "10.0.2.15",
+      "dest_ip": "8.8.8.8",
+      "details": {
+        "query": "1zope317aeda.example.com",
+        "id": 0
+      },
+      "description": "DNS query for '1zope317aeda.example.com' from 10.0.2.15"
+    },
+    {
+      "id": 12,
+      "timestamp": 1771309314.553542,
+      "type": "DNS Query",
+      "source_ip": "10.0.2.15",
+      "dest_ip": "8.8.8.8",
+      "details": {
+        "query": "twibry9x17c5.example.com",
+        "id": 0
+      },
+      "description": "DNS query for 'twibry9x17c5.example.com' from 10.0.2.15"
+    },
+    {
+      "id": 13,
+      "timestamp": 1771309314.555223,
+      "type": "DNS Query",
+      "source_ip": "10.0.2.15",
+      "dest_ip": "8.8.8.8",
+      "details": {
+        "query": "dma2y2uvk4vw.example.com",
+        "id": 0
+      },
+      "description": "DNS query for 'dma2y2uvk4vw.example.com' from 10.0.2.15"
+    },
+    {
+      "id": 14,
+      "timestamp": 1771309314.56328,
+      "type": "DNS Query",
+      "source_ip": "10.0.2.15",
+      "dest_ip": "8.8.8.8",
+      "details": {
+        "query": "d058nf3ip5cy.example.com",
+        "id": 0
+      },
+      "description": "DNS query for 'd058nf3ip5cy.example.com' from 10.0.2.15"
+    },
+    {
+      "id": 15,
+      "timestamp": 1771309314.560742,
+      "type": "DNS Query",
+      "source_ip": "10.0.2.15",
+      "dest_ip": "8.8.8.8",
+      "details": {
+        "query": "3okd9wkggri7.example.com",
+        "id": 0
+      },
+      "description": "DNS query for '3okd9wkggri7.example.com' from 10.0.2.15"
+    },
+    {
+      "id": 16,
+      "timestamp": 1771309314.569578,
+      "type": "DNS Query",
+      "source_ip": "10.0.2.15",
+      "dest_ip": "8.8.8.8",
+      "details": {
+        "query": "kali.org",
+        "id": 0
+      },
+      "description": "DNS query for 'kali.org' from 10.0.2.15"
+    },
+    {
+      "id": 17,
+      "timestamp": 1771309314.566339,
+      "type": "DNS Query",
+      "source_ip": "10.0.2.15",
+      "dest_ip": "8.8.8.8",
+      "details": {
+        "query": "cloudflare.com",
+        "id": 0
+      },
+      "description": "DNS query for 'cloudflare.com' from 10.0.2.15"
+    },
+    {
+      "id": 18,
+      "timestamp": 1771309314.552775,
+      "type": "DNS Query",
+      "source_ip": "10.0.2.15",
+      "dest_ip": "8.8.8.8",
+      "details": {
+        "query": "8g21axks5fzn.example.com",
+        "id": 0
+      },
+      "description": "DNS query for '8g21axks5fzn.example.com' from 10.0.2.15"
+    },
+    {
+      "id": 19,
+      "timestamp": 1771309314.556815,
+      "type": "DNS Query",
+      "source_ip": "10.0.2.15",
+      "dest_ip": "8.8.8.8",
+      "details": {
+        "query": "hm426p5pj1wt.example.com",
+        "id": 0
+      },
+      "description": "DNS query for 'hm426p5pj1wt.example.com' from 10.0.2.15"
+    },
+    {
+      "id": 20,
+      "timestamp": 1771309314.553792,
+      "type": "DNS Query",
+      "source_ip": "10.0.2.15",
+      "dest_ip": "8.8.8.8",
+      "details": {
+        "query": "1aj0of3u6v5t.example.com",
+        "id": 0
+      },
+      "description": "DNS query for '1aj0of3u6v5t.example.com' from 10.0.2.15"
+    },
+    {
+      "id": 21,
+      "timestamp": 1771309314.551453,
+      "type": "DNS Query",
+      "source_ip": "10.0.2.15",
+      "dest_ip": "8.8.8.8",
+      "details": {
+        "query": "4x9vmzys3xl1.example.com",
+        "id": 0
+      },
+      "description": "DNS query for '4x9vmzys3xl1.example.com' from 10.0.2.15"
+    },
+    {
+      "id": 22,
+      "timestamp": 1771309314.560362,
+      "type": "DNS Query",
+      "source_ip": "10.0.2.15",
+      "dest_ip": "8.8.8.8",
+      "details": {
+        "query": "6gh4oshyjpli.example.com",
+        "id": 0
+      },
+      "description": "DNS query for '6gh4oshyjpli.example.com' from 10.0.2.15"
+    },
+    {
+      "id": 23,
+      "timestamp": 1771309314.551959,
+      "type": "DNS Query",
+      "source_ip": "10.0.2.15",
+      "dest_ip": "8.8.8.8",
+      "details": {
+        "query": "7g9aub15fc90.example.com",
+        "id": 0
+      },
+      "description": "DNS query for '7g9aub15fc90.example.com' from 10.0.2.15"
+    },
+    {
+      "id": 24,
+      "timestamp": 1771309314.553164,
+      "type": "DNS Query",
+      "source_ip": "10.0.2.15",
+      "dest_ip": "8.8.8.8",
+      "details": {
+        "query": "9957jfmrq1cc.example.com",
+        "id": 0
+      },
+      "description": "DNS query for '9957jfmrq1cc.example.com' from 10.0.2.15"
+    },
+    {
+      "id": 25,
+      "timestamp": 1771309314.559891,
+      "type": "DNS Query",
+      "source_ip": "10.0.2.15",
+      "dest_ip": "8.8.8.8",
+      "details": {
+        "query": "ajt49mhjcjqh.example.com",
+        "id": 0
+      },
+      "description": "DNS query for 'ajt49mhjcjqh.example.com' from 10.0.2.15"
+    },
+    {
+      "id": 26,
+      "timestamp": 1771309314.548835,
+      "type": "DNS Query",
+      "source_ip": "10.0.2.15",
+      "dest_ip": "8.8.8.8",
+      "details": {
+        "query": "lrcaa67h651y.example.com",
+        "id": 0
+      },
+      "description": "DNS query for 'lrcaa67h651y.example.com' from 10.0.2.15"
+    },
+    {
+      "id": 27,
+      "timestamp": 1771309314.564548,
+      "type": "DNS Query",
+      "source_ip": "10.0.2.15",
+      "dest_ip": "8.8.8.8",
+      "details": {
+        "query": "2p5gorbfkz0f.example.com",
+        "id": 0
+      },
+      "description": "DNS query for '2p5gorbfkz0f.example.com' from 10.0.2.15"
+    },
+    {
+      "id": 28,
+      "timestamp": 1771309314.564426,
+      "type": "DNS Query",
+      "source_ip": "10.0.2.15",
+      "dest_ip": "8.8.8.8",
+      "details": {
+        "query": "v56pg13rmloh.example.com",
+        "id": 0
+      },
+      "description": "DNS query for 'v56pg13rmloh.example.com' from 10.0.2.15"
+    },
+    {
+      "id": 29,
+      "timestamp": 1771309314.568187,
+      "type": "DNS Query",
+      "source_ip": "10.0.2.15",
+      "dest_ip": "8.8.8.8",
+      "details": {
+        "query": "microsoft.com",
+        "id": 0
+      },
+      "description": "DNS query for 'microsoft.com' from 10.0.2.15"
+    },
+    {
+      "id": 30,
+      "timestamp": 1771309314.552078,
+      "type": "DNS Query",
+      "source_ip": "10.0.2.15",
+      "dest_ip": "8.8.8.8",
+      "details": {
+        "query": "pyq4qgre0k9g.example.com",
+        "id": 0
+      },
+      "description": "DNS query for 'pyq4qgre0k9g.example.com' from 10.0.2.15"
+    },
+    {
+      "id": 31,
+      "timestamp": 1771309314.568031,
+      "type": "DNS Query",
+      "source_ip": "10.0.2.15",
+      "dest_ip": "8.8.8.8",
+      "details": {
+        "query": "google.com",
+        "id": 0
+      },
+      "description": "DNS query for 'google.com' from 10.0.2.15"
+    },
+    {
+      "id": 32,
+      "timestamp": 1771309314.559176,
+      "type": "DNS Query",
+      "source_ip": "10.0.2.15",
+      "dest_ip": "8.8.8.8",
+      "details": {
+        "query": "jg8iculcgdg1.example.com",
+        "id": 0
+      },
+      "description": "DNS query for 'jg8iculcgdg1.example.com' from 10.0.2.15"
+    },
+    {
+      "id": 33,
+      "timestamp": 1771309314.558119,
+      "type": "DNS Query",
+      "source_ip": "10.0.2.15",
+      "dest_ip": "8.8.8.8",
+      "details": {
+        "query": "x5iv99gbvo67.example.com",
+        "id": 0
+      },
+      "description": "DNS query for 'x5iv99gbvo67.example.com' from 10.0.2.15"
+    },
+    {
+      "id": 34,
+      "timestamp": 1771309314.548352,
+      "type": "DNS Query",
+      "source_ip": "10.0.2.15",
+      "dest_ip": "8.8.8.8",
+      "details": {
+        "query": "va4e98604ijy.example.com",
+        "id": 0
+      },
+      "description": "DNS query for 'va4e98604ijy.example.com' from 10.0.2.15"
+    },
+    {
+      "id": 35,
+      "timestamp": 1771309314.560134,
+      "type": "DNS Query",
+      "source_ip": "10.0.2.15",
+      "dest_ip": "8.8.8.8",
+      "details": {
+        "query": "6xej2l0159t1.example.com",
+        "id": 0
+      },
+      "description": "DNS query for '6xej2l0159t1.example.com' from 10.0.2.15"
+    },
+    {
+      "id": 36,
+      "timestamp": 1771309314.567351,
+      "type": "DNS Query",
+      "source_ip": "10.0.2.15",
+      "dest_ip": "8.8.8.8",
+      "details": {
+        "query": "github.com",
+        "id": 0
+      },
+      "description": "DNS query for 'github.com' from 10.0.2.15"
+    },
+    {
+      "id": 37,
+      "timestamp": 1771309314.560593,
+      "type": "DNS Query",
+      "source_ip": "10.0.2.15",
+      "dest_ip": "8.8.8.8",
+      "details": {
+        "query": "mf2v5su5eu8x.example.com",
+        "id": 0
+      },
+      "description": "DNS query for 'mf2v5su5eu8x.example.com' from 10.0.2.15"
+    },
+    {
+      "id": 38,
+      "timestamp": 1771309314.548475,
+      "type": "DNS Query",
+      "source_ip": "10.0.2.15",
+      "dest_ip": "8.8.8.8",
+      "details": {
+        "query": "5g52inaufarr.example.com",
+        "id": 0
+      },
+      "description": "DNS query for '5g52inaufarr.example.com' from 10.0.2.15"
+    },
+    {
+      "id": 39,
+      "timestamp": 1771309314.548597,
+      "type": "DNS Query",
+      "source_ip": "10.0.2.15",
+      "dest_ip": "8.8.8.8",
+      "details": {
+        "query": "t0fn5m5qxjyf.example.com",
+        "id": 0
+      },
+      "description": "DNS query for 't0fn5m5qxjyf.example.com' from 10.0.2.15"
+    },
+    {
+      "id": 40,
+      "timestamp": 1771309314.558456,
+      "type": "DNS Query",
+      "source_ip": "10.0.2.15",
+      "dest_ip": "8.8.8.8",
+      "details": {
+        "query": "euwg78fseart.example.com",
+        "id": 0
+      },
+      "description": "DNS query for 'euwg78fseart.example.com' from 10.0.2.15"
+    },
+    {
+      "id": 41,
+      "timestamp": 1771309314.56137,
+      "type": "DNS Query",
+      "source_ip": "10.0.2.15",
+      "dest_ip": "8.8.8.8",
+      "details": {
+        "query": "julvso5e0ia1.example.com",
+        "id": 0
+      },
+      "description": "DNS query for 'julvso5e0ia1.example.com' from 10.0.2.15"
+    },
+    {
+      "id": 42,
+      "timestamp": 1771309314.553427,
+      "type": "DNS Query",
+      "source_ip": "10.0.2.15",
+      "dest_ip": "8.8.8.8",
+      "details": {
+        "query": "i8uov6uahdfb.example.com",
+        "id": 0
+      },
+      "description": "DNS query for 'i8uov6uahdfb.example.com' from 10.0.2.15"
+    },
+    {
+      "id": 43,
+      "timestamp": 1771309314.550856,
+      "type": "DNS Query",
+      "source_ip": "10.0.2.15",
+      "dest_ip": "8.8.8.8",
+      "details": {
+        "query": "tjhstbmzopg7.example.com",
+        "id": 0
+      },
+      "description": "DNS query for 'tjhstbmzopg7.example.com' from 10.0.2.15"
+    },
+    {
+      "id": 44,
+      "timestamp": 1771309314.552637,
+      "type": "DNS Query",
+      "source_ip": "10.0.2.15",
+      "dest_ip": "8.8.8.8",
+      "details": {
+        "query": "0yilmfkxne70.example.com",
+        "id": 0
+      },
+      "description": "DNS query for '0yilmfkxne70.example.com' from 10.0.2.15"
+    },
+    {
+      "id": 45,
+      "timestamp": 1771309314.555677,
+      "type": "DNS Query",
+      "source_ip": "10.0.2.15",
+      "dest_ip": "8.8.8.8",
+      "details": {
+        "query": "y56au0njl8j6.example.com",
+        "id": 0
+      },
+      "description": "DNS query for 'y56au0njl8j6.example.com' from 10.0.2.15"
+    },
+    {
+      "id": 46,
+      "timestamp": 1771309314.562729,
+      "type": "DNS Query",
+      "source_ip": "10.0.2.15",
+      "dest_ip": "8.8.8.8",
+      "details": {
+        "query": "afqob2m0bhx4.example.com",
+        "id": 0
+      },
+      "description": "DNS query for 'afqob2m0bhx4.example.com' from 10.0.2.15"
+    },
+    {
+      "id": 47,
+      "timestamp": 1771309314.550122,
+      "type": "DNS Query",
+      "source_ip": "10.0.2.15",
+      "dest_ip": "8.8.8.8",
+      "details": {
+        "query": "5m7oct5l6w2o.example.com",
+        "id": 0
+      },
+      "description": "DNS query for '5m7oct5l6w2o.example.com' from 10.0.2.15"
+    },
+    {
+      "id": 48,
+      "timestamp": 1771309314.569355,
+      "type": "DNS Query",
+      "source_ip": "10.0.2.15",
+      "dest_ip": "8.8.8.8",
+      "details": {
+        "query": "kali.org",
+        "id": 0
+      },
+      "description": "DNS query for 'kali.org' from 10.0.2.15"
+    },
+    {
+      "id": 49,
+      "timestamp": 1771309314.550365,
+      "type": "DNS Query",
+      "source_ip": "10.0.2.15",
+      "dest_ip": "8.8.8.8",
+      "details": {
+        "query": "o5nmiwkd4cu5.example.com",
+        "id": 0
+      },
+      "description": "DNS query for 'o5nmiwkd4cu5.example.com' from 10.0.2.15"
+    },
+    {
+      "id": 50,
+      "timestamp": 1771309314.550975,
+      "type": "DNS Query",
+      "source_ip": "10.0.2.15",
+      "dest_ip": "8.8.8.8",
+      "details": {
+        "query": "88b2edmtzczb.example.com",
+        "id": 0
+      },
+      "description": "DNS query for '88b2edmtzczb.example.com' from 10.0.2.15"
+    },
+    {
+      "id": 51,
+      "timestamp": 1771309314.556045,
+      "type": "DNS Query",
+      "source_ip": "10.0.2.15",
+      "dest_ip": "8.8.8.8",
+      "details": {
+        "query": "yvpw8ktjyhcq.example.com",
+        "id": 0
+      },
+      "description": "DNS query for 'yvpw8ktjyhcq.example.com' from 10.0.2.15"
+    },
+    {
+      "id": 52,
+      "timestamp": 1771309314.565776,
+      "type": "DNS Query",
+      "source_ip": "10.0.2.15",
+      "dest_ip": "8.8.8.8",
+      "details": {
+        "query": "google.com",
+        "id": 0
+      },
+      "description": "DNS query for 'google.com' from 10.0.2.15"
+    },
+    {
+      "id": 53,
+      "timestamp": 1771309314.566013,
+      "type": "DNS Query",
+      "source_ip": "10.0.2.15",
+      "dest_ip": "8.8.8.8",
+      "details": {
+        "query": "github.com",
+        "id": 0
+      },
+      "description": "DNS query for 'github.com' from 10.0.2.15"
+    },
+    {
+      "id": 54,
+      "timestamp": 1771309314.564268,
+      "type": "DNS Query",
+      "source_ip": "10.0.2.15",
+      "dest_ip": "8.8.8.8",
+      "details": {
+        "query": "35ltxhjo77e9.example.com",
+        "id": 0
+      },
+      "description": "DNS query for '35ltxhjo77e9.example.com' from 10.0.2.15"
+    },
+    {
+      "id": 55,
+      "timestamp": 1771309314.565898,
+      "type": "DNS Query",
+      "source_ip": "10.0.2.15",
+      "dest_ip": "8.8.8.8",
+      "details": {
+        "query": "kali.org",
+        "id": 0
+      },
+      "description": "DNS query for 'kali.org' from 10.0.2.15"
+    },
+    {
+      "id": 56,
+      "timestamp": 1771309314.551332,
+      "type": "DNS Query",
+      "source_ip": "10.0.2.15",
+      "dest_ip": "8.8.8.8",
+      "details": {
+        "query": "88ya3v2oh43a.example.com",
+        "id": 0
+      },
+      "description": "DNS query for '88ya3v2oh43a.example.com' from 10.0.2.15"
+    },
+    {
+      "id": 57,
+      "timestamp": 1771309314.551719,
+      "type": "DNS Query",
+      "source_ip": "10.0.2.15",
+      "dest_ip": "8.8.8.8",
+      "details": {
+        "query": "msqblqgvlz2x.example.com",
+        "id": 0
+      },
+      "description": "DNS query for 'msqblqgvlz2x.example.com' from 10.0.2.15"
+    },
+    {
+      "id": 58,
+      "timestamp": 1771309314.550241,
+      "type": "DNS Query",
+      "source_ip": "10.0.2.15",
+      "dest_ip": "8.8.8.8",
+      "details": {
+        "query": "sacbi1tkpac6.example.com",
+        "id": 0
+      },
+      "description": "DNS query for 'sacbi1tkpac6.example.com' from 10.0.2.15"
+    },
+    {
+      "id": 59,
+      "timestamp": 1771309314.562048,
+      "type": "DNS Query",
+      "source_ip": "10.0.2.15",
+      "dest_ip": "8.8.8.8",
+      "details": {
+        "query": "x2ce2gd4bxjz.example.com",
+        "id": 0
+      },
+      "description": "DNS query for 'x2ce2gd4bxjz.example.com' from 10.0.2.15"
+    },
+    {
+      "id": 60,
+      "timestamp": 1771309314.566624,
+      "type": "DNS Query",
+      "source_ip": "10.0.2.15",
+      "dest_ip": "8.8.8.8",
+      "details": {
+        "query": "github.com",
+        "id": 0
+      },
+      "description": "DNS query for 'github.com' from 10.0.2.15"
+    },
+    {
+      "id": 61,
+      "timestamp": 1771309314.54919,
+      "type": "DNS Query",
+      "source_ip": "10.0.2.15",
+      "dest_ip": "8.8.8.8",
+      "details": {
+        "query": "ua09kg6opi80.example.com",
+        "id": 0
+      },
+      "description": "DNS query for 'ua09kg6opi80.example.com' from 10.0.2.15"
+    },
+    {
+      "id": 62,
+      "timestamp": 1771309314.56542,
+      "type": "DNS Query",
+      "source_ip": "10.0.2.15",
+      "dest_ip": "8.8.8.8",
+      "details": {
+        "query": "google.com",
+        "id": 0
+      },
+      "description": "DNS query for 'google.com' from 10.0.2.15"
+    },
+    {
+      "id": 63,
+      "timestamp": 1771309314.557623,
+      "type": "DNS Query",
+      "source_ip": "10.0.2.15",
+      "dest_ip": "8.8.8.8",
+      "details": {
+        "query": "dtn3ghw64dhv.example.com",
+        "id": 0
+      },
+      "description": "DNS query for 'dtn3ghw64dhv.example.com' from 10.0.2.15"
+    },
+    {
+      "id": 64,
+      "timestamp": 1771309314.551842,
+      "type": "DNS Query",
+      "source_ip": "10.0.2.15",
+      "dest_ip": "8.8.8.8",
+      "details": {
+        "query": "vz1yepcchcia.example.com",
+        "id": 0
+      },
+      "description": "DNS query for 'vz1yepcchcia.example.com' from 10.0.2.15"
+    },
+    {
+      "id": 65,
+      "timestamp": 1771309314.548109,
+      "type": "DNS Query",
+      "source_ip": "10.0.2.15",
+      "dest_ip": "8.8.8.8",
+      "details": {
+        "query": "3wjgdnod91nx.example.com",
+        "id": 0
+      },
+      "description": "DNS query for '3wjgdnod91nx.example.com' from 10.0.2.15"
+    },
+    {
+      "id": 66,
+      "timestamp": 1771309314.561696,
+      "type": "DNS Query",
+      "source_ip": "10.0.2.15",
+      "dest_ip": "8.8.8.8",
+      "details": {
+        "query": "4osown6bc3lo.example.com",
+        "id": 0
+      },
+      "description": "DNS query for '4osown6bc3lo.example.com' from 10.0.2.15"
+    },
+    {
+      "id": 67,
+      "timestamp": 1771309314.56228,
+      "type": "DNS Query",
+      "source_ip": "10.0.2.15",
+      "dest_ip": "8.8.8.8",
+      "details": {
+        "query": "2r4rveocn73z.example.com",
+        "id": 0
+      },
+      "description": "DNS query for '2r4rveocn73z.example.com' from 10.0.2.15"
+    },
+    {
+      "id": 68,
+      "timestamp": 1771309314.557889,
+      "type": "DNS Query",
+      "source_ip": "10.0.2.15",
+      "dest_ip": "8.8.8.8",
+      "details": {
+        "query": "njt5dc7n0wqi.example.com",
+        "id": 0
+      },
+      "description": "DNS query for 'njt5dc7n0wqi.example.com' from 10.0.2.15"
+    },
+    {
+      "id": 69,
+      "timestamp": 1771309314.565019,
+      "type": "DNS Query",
+      "source_ip": "10.0.2.15",
+      "dest_ip": "8.8.8.8",
+      "details": {
+        "query": "8cmvni3103y2.example.com",
+        "id": 0
+      },
+      "description": "DNS query for '8cmvni3103y2.example.com' from 10.0.2.15"
+    },
+    {
+      "id": 70,
+      "timestamp": 1771309314.549433,
+      "type": "DNS Query",
+      "source_ip": "10.0.2.15",
+      "dest_ip": "8.8.8.8",
+      "details": {
+        "query": "ezm9ddnnakk5.example.com",
+        "id": 0
+      },
+      "description": "DNS query for 'ezm9ddnnakk5.example.com' from 10.0.2.15"
+    },
+    {
+      "id": 71,
+      "timestamp": 1771309314.547979,
+      "type": "DNS Query",
+      "source_ip": "10.0.2.15",
+      "dest_ip": "8.8.8.8",
+      "details": {
+        "query": "4cq9bxr4wwst.example.com",
+        "id": 0
+      },
+      "description": "DNS query for '4cq9bxr4wwst.example.com' from 10.0.2.15"
+    },
+    {
+      "id": 72,
+      "timestamp": 1771309314.564668,
+      "type": "DNS Query",
+      "source_ip": "10.0.2.15",
+      "dest_ip": "8.8.8.8",
+      "details": {
+        "query": "iykubbo0b6ou.example.com",
+        "id": 0
+      },
+      "description": "DNS query for 'iykubbo0b6ou.example.com' from 10.0.2.15"
+    },
+    {
+      "id": 73,
+      "timestamp": 1771309314.568594,
+      "type": "DNS Query",
+      "source_ip": "10.0.2.15",
+      "dest_ip": "8.8.8.8",
+      "details": {
+        "query": "github.com",
+        "id": 0
+      },
+      "description": "DNS query for 'github.com' from 10.0.2.15"
+    },
+    {
+      "id": 74,
+      "timestamp": 1771309314.549997,
+      "type": "DNS Query",
+      "source_ip": "10.0.2.15",
+      "dest_ip": "8.8.8.8",
+      "details": {
+        "query": "dgqg2n5msswn.example.com",
+        "id": 0
+      },
+      "description": "DNS query for 'dgqg2n5msswn.example.com' from 10.0.2.15"
+    },
+    {
+      "id": 75,
+      "timestamp": 1771309314.559062,
+      "type": "DNS Query",
+      "source_ip": "10.0.2.15",
+      "dest_ip": "8.8.8.8",
+      "details": {
+        "query": "14bg408gy6ka.example.com",
+        "id": 0
+      },
+      "description": "DNS query for '14bg408gy6ka.example.com' from 10.0.2.15"
+    },
+    {
+      "id": 76,
+      "timestamp": 1771309314.547255,
+      "type": "DNS Query",
+      "source_ip": "10.0.2.15",
+      "dest_ip": "8.8.8.8",
+      "details": {
+        "query": "huwaaijaabefotre.ghostmantis-lab.net",
+        "id": 0
+      },
+      "description": "DNS query for 'huwaaijaabefotre.ghostmantis-lab.net' from 10.0.2.15"
+    },
+    {
+      "id": 77,
+      "timestamp": 1771309314.552922,
+      "type": "DNS Query",
+      "source_ip": "10.0.2.15",
+      "dest_ip": "8.8.8.8",
+      "details": {
+        "query": "jay9bneji6r9.example.com",
+        "id": 0
+      },
+      "description": "DNS query for 'jay9bneji6r9.example.com' from 10.0.2.15"
+    },
+    {
+      "id": 78,
+      "timestamp": 1771309314.558008,
+      "type": "DNS Query",
+      "source_ip": "10.0.2.15",
+      "dest_ip": "8.8.8.8",
+      "details": {
+        "query": "wk8w9sl1lmkt.example.com",
+        "id": 0
+      },
+      "description": "DNS query for 'wk8w9sl1lmkt.example.com' from 10.0.2.15"
+    },
+    {
+      "id": 79,
+      "timestamp": 1771309314.556428,
+      "type": "DNS Query",
+      "source_ip": "10.0.2.15",
+      "dest_ip": "8.8.8.8",
+      "details": {
+        "query": "inx6dv0tsban.example.com",
+        "id": 0
+      },
+      "description": "DNS query for 'inx6dv0tsban.example.com' from 10.0.2.15"
+    },
+    {
+      "id": 80,
+      "timestamp": 1771309314.557382,
+      "type": "DNS Query",
+      "source_ip": "10.0.2.15",
+      "dest_ip": "8.8.8.8",
+      "details": {
+        "query": "sxg32691tvhc.example.com",
+        "id": 0
+      },
+      "description": "DNS query for 'sxg32691tvhc.example.com' from 10.0.2.15"
+    },
+    {
+      "id": 81,
+      "timestamp": 1771309314.561934,
+      "type": "DNS Query",
+      "source_ip": "10.0.2.15",
+      "dest_ip": "8.8.8.8",
+      "details": {
+        "query": "x0xiza4k0adw.example.com",
+        "id": 0
+      },
+      "description": "DNS query for 'x0xiza4k0adw.example.com' from 10.0.2.15"
+    },
+    {
+      "id": 82,
+      "timestamp": 1771309314.549072,
+      "type": "DNS Query",
+      "source_ip": "10.0.2.15",
+      "dest_ip": "8.8.8.8",
+      "details": {
+        "query": "jn5ph9wuoffh.example.com",
+        "id": 0
+      },
+      "description": "DNS query for 'jn5ph9wuoffh.example.com' from 10.0.2.15"
+    },
+    {
+      "id": 83,
+      "timestamp": 1771309314.555564,
+      "type": "DNS Query",
+      "source_ip": "10.0.2.15",
+      "dest_ip": "8.8.8.8",
+      "details": {
+        "query": "en1gd27xf6im.example.com",
+        "id": 0
+      },
+      "description": "DNS query for 'en1gd27xf6im.example.com' from 10.0.2.15"
+    },
+    {
+      "id": 84,
+      "timestamp": 1771309314.569803,
+      "type": "DNS Query",
+      "source_ip": "10.0.2.15",
+      "dest_ip": "8.8.8.8",
+      "details": {
+        "query": "cloudflare.com",
+        "id": 0
+      },
+      "description": "DNS query for 'cloudflare.com' from 10.0.2.15"
+    },
+    {
+      "id": 85,
+      "timestamp": 1771309314.563853,
+      "type": "DNS Query",
+      "source_ip": "10.0.2.15",
+      "dest_ip": "8.8.8.8",
+      "details": {
+        "query": "o084j3ugr1ga.example.com",
+        "id": 0
+      },
+      "description": "DNS query for 'o084j3ugr1ga.example.com' from 10.0.2.15"
+    },
+    {
+      "id": 86,
+      "timestamp": 1771309314.568834,
+      "type": "DNS Query",
+      "source_ip": "10.0.2.15",
+      "dest_ip": "8.8.8.8",
+      "details": {
+        "query": "github.com",
+        "id": 0
+      },
+      "description": "DNS query for 'github.com' from 10.0.2.15"
+    },
+    {
+      "id": 87,
+      "timestamp": 1771309314.570139,
+      "type": "DNS Query",
+      "source_ip": "10.0.2.15",
+      "dest_ip": "8.8.8.8",
+      "details": {
+        "query": "kali.org",
+        "id": 0
+      },
+      "description": "DNS query for 'kali.org' from 10.0.2.15"
+    },
+    {
+      "id": 88,
+      "timestamp": 1771309314.559584,
+      "type": "DNS Query",
+      "source_ip": "10.0.2.15",
+      "dest_ip": "8.8.8.8",
+      "details": {
+        "query": "nfp9dmpcszl2.example.com",
+        "id": 0
+      },
+      "description": "DNS query for 'nfp9dmpcszl2.example.com' from 10.0.2.15"
+    },
+    {
+      "id": 89,
+      "timestamp": 1771309314.568314,
+      "type": "DNS Query",
+      "source_ip": "10.0.2.15",
+      "dest_ip": "8.8.8.8",
+      "details": {
+        "query": "microsoft.com",
+        "id": 0
+      },
+      "description": "DNS query for 'microsoft.com' from 10.0.2.15"
+    },
+    {
+      "id": 90,
+      "timestamp": 1771309314.554104,
+      "type": "DNS Query",
+      "source_ip": "10.0.2.15",
+      "dest_ip": "8.8.8.8",
+      "details": {
+        "query": "fk5rwl8v563n.example.com",
+        "id": 0
+      },
+      "description": "DNS query for 'fk5rwl8v563n.example.com' from 10.0.2.15"
+    },
+    {
+      "id": 91,
+      "timestamp": 1771309314.563607,
+      "type": "DNS Query",
+      "source_ip": "10.0.2.15",
+      "dest_ip": "8.8.8.8",
+      "details": {
+        "query": "i8xjeuauohd6.example.com",
+        "id": 0
+      },
+      "description": "DNS query for 'i8xjeuauohd6.example.com' from 10.0.2.15"
+    },
+    {
+      "id": 92,
+      "timestamp": 1771309314.556303,
+      "type": "DNS Query",
+      "source_ip": "10.0.2.15",
+      "dest_ip": "8.8.8.8",
+      "details": {
+        "query": "1r53yk09p6hz.example.com",
+        "id": 0
+      },
+      "description": "DNS query for '1r53yk09p6hz.example.com' from 10.0.2.15"
+    },
+    {
+      "id": 93,
+      "timestamp": 1771309314.552191,
+      "type": "DNS Query",
+      "source_ip": "10.0.2.15",
+      "dest_ip": "8.8.8.8",
+      "details": {
+        "query": "9bde8wogfl0g.example.com",
+        "id": 0
+      },
+      "description": "DNS query for '9bde8wogfl0g.example.com' from 10.0.2.15"
+    },
+    {
+      "id": 94,
+      "timestamp": 1771309314.558343,
+      "type": "DNS Query",
+      "source_ip": "10.0.2.15",
+      "dest_ip": "8.8.8.8",
+      "details": {
+        "query": "7d37rvlgdsxn.example.com",
+        "id": 0
+      },
+      "description": "DNS query for '7d37rvlgdsxn.example.com' from 10.0.2.15"
+    },
+    {
+      "id": 95,
+      "timestamp": 1771309314.568716,
+      "type": "DNS Query",
+      "source_ip": "10.0.2.15",
+      "dest_ip": "8.8.8.8",
+      "details": {
+        "query": "kali.org",
+        "id": 0
+      },
+      "description": "DNS query for 'kali.org' from 10.0.2.15"
+    },
+    {
+      "id": 96,
+      "timestamp": 1771309314.567485,
+      "type": "DNS Query",
+      "source_ip": "10.0.2.15",
+      "dest_ip": "8.8.8.8",
+      "details": {
+        "query": "github.com",
+        "id": 0
+      },
+      "description": "DNS query for 'github.com' from 10.0.2.15"
+    },
+    {
+      "id": 97,
+      "timestamp": 1771309314.553906,
+      "type": "DNS Query",
+      "source_ip": "10.0.2.15",
+      "dest_ip": "8.8.8.8",
+      "details": {
+        "query": "fillc40i7ehi.example.com",
+        "id": 0
+      },
+      "description": "DNS query for 'fillc40i7ehi.example.com' from 10.0.2.15"
+    },
+    {
+      "id": 98,
+      "timestamp": 1771309314.569121,
+      "type": "DNS Query",
+      "source_ip": "10.0.2.15",
+      "dest_ip": "8.8.8.8",
+      "details": {
+        "query": "kali.org",
+        "id": 0
+      },
+      "description": "DNS query for 'kali.org' from 10.0.2.15"
+    },
+    {
+      "id": 99,
+      "timestamp": 1771309314.568965,
+      "type": "DNS Query",
+      "source_ip": "10.0.2.15",
+      "dest_ip": "8.8.8.8",
+      "details": {
+        "query": "github.com",
+        "id": 0
+      },
+      "description": "DNS query for 'github.com' from 10.0.2.15"
+    },
+    {
+      "id": 100,
+      "timestamp": 1771309314.551095,
+      "type": "DNS Query",
+      "source_ip": "10.0.2.15",
+      "dest_ip": "8.8.8.8",
+      "details": {
+        "query": "ygmswstrbd2y.example.com",
+        "id": 0
+      },
+      "description": "DNS query for 'ygmswstrbd2y.example.com' from 10.0.2.15"
+    },
+    {
+      "id": 101,
+      "timestamp": 1771309314.570023,
+      "type": "DNS Query",
+      "source_ip": "10.0.2.15",
+      "dest_ip": "8.8.8.8",
+      "details": {
+        "query": "cloudflare.com",
+        "id": 0
+      },
+      "description": "DNS query for 'cloudflare.com' from 10.0.2.15"
+    },
+    {
+      "id": 102,
+      "timestamp": 1771309314.553677,
+      "type": "DNS Query",
+      "source_ip": "10.0.2.15",
+      "dest_ip": "8.8.8.8",
+      "details": {
+        "query": "sczyiyhe0caf.example.com",
+        "id": 0
+      },
+      "description": "DNS query for 'sczyiyhe0caf.example.com' from 10.0.2.15"
+    },
+    {
+      "id": 103,
+      "timestamp": 1771309314.56924,
+      "type": "DNS Query",
+      "source_ip": "10.0.2.15",
+      "dest_ip": "8.8.8.8",
+      "details": {
+        "query": "microsoft.com",
+        "id": 0
+      },
+      "description": "DNS query for 'microsoft.com' from 10.0.2.15"
+    },
+    {
+      "id": 104,
+      "timestamp": 1771309314.566791,
+      "type": "DNS Query",
+      "source_ip": "10.0.2.15",
+      "dest_ip": "8.8.8.8",
+      "details": {
+        "query": "cloudflare.com",
+        "id": 0
+      },
+      "description": "DNS query for 'cloudflare.com' from 10.0.2.15"
+    },
+    {
+      "id": 105,
+      "timestamp": 1771309314.557245,
+      "type": "DNS Query",
+      "source_ip": "10.0.2.15",
+      "dest_ip": "8.8.8.8",
+      "details": {
+        "query": "8g0oo5xwsq4y.example.com",
+        "id": 0
+      },
+      "description": "DNS query for '8g0oo5xwsq4y.example.com' from 10.0.2.15"
+    },
+    {
+      "id": 106,
+      "timestamp": 1771309314.548234,
+      "type": "DNS Query",
+      "source_ip": "10.0.2.15",
+      "dest_ip": "8.8.8.8",
+      "details": {
+        "query": "6y1yt3tm4p53.example.com",
+        "id": 0
+      },
+      "description": "DNS query for '6y1yt3tm4p53.example.com' from 10.0.2.15"
+    },
+    {
+      "id": 107,
+      "timestamp": 1771309314.556978,
+      "type": "DNS Query",
+      "source_ip": "10.0.2.15",
+      "dest_ip": "8.8.8.8",
+      "details": {
+        "query": "aabpw0thdfw0.example.com",
+        "id": 0
+      },
+      "description": "DNS query for 'aabpw0thdfw0.example.com' from 10.0.2.15"
+    },
+    {
+      "id": 108,
+      "timestamp": 1771309314.558233,
+      "type": "DNS Query",
+      "source_ip": "10.0.2.15",
+      "dest_ip": "8.8.8.8",
+      "details": {
+        "query": "63r03vr8pyoj.example.com",
+        "id": 0
+      },
+      "description": "DNS query for '63r03vr8pyoj.example.com' from 10.0.2.15"
+    },
+    {
+      "id": 109,
+      "timestamp": 1771309314.55455,
+      "type": "DNS Query",
+      "source_ip": "10.0.2.15",
+      "dest_ip": "8.8.8.8",
+      "details": {
+        "query": "vhhu0xmotqc3.example.com",
+        "id": 0
+      },
+      "description": "DNS query for 'vhhu0xmotqc3.example.com' from 10.0.2.15"
+    },
+    {
+      "id": 110,
+      "timestamp": 1771309314.555449,
+      "type": "DNS Query",
+      "source_ip": "10.0.2.15",
+      "dest_ip": "8.8.8.8",
+      "details": {
+        "query": "5a7i2hutf8nl.example.com",
+        "id": 0
+      },
+      "description": "DNS query for '5a7i2hutf8nl.example.com' from 10.0.2.15"
+    },
+    {
+      "id": 111,
+      "timestamp": 1771309314.554986,
+      "type": "DNS Query",
+      "source_ip": "10.0.2.15",
+      "dest_ip": "8.8.8.8",
+      "details": {
+        "query": "js2lbsi0p4hm.example.com",
+        "id": 0
+      },
+      "description": "DNS query for 'js2lbsi0p4hm.example.com' from 10.0.2.15"
+    },
+    {
+      "id": 112,
+      "timestamp": 1771309314.565541,
+      "type": "DNS Query",
+      "source_ip": "10.0.2.15",
+      "dest_ip": "8.8.8.8",
+      "details": {
+        "query": "cloudflare.com",
+        "id": 0
+      },
+      "description": "DNS query for 'cloudflare.com' from 10.0.2.15"
+    },
+    {
+      "id": 113,
+      "timestamp": 1771309314.558692,
+      "type": "DNS Query",
+      "source_ip": "10.0.2.15",
+      "dest_ip": "8.8.8.8",
+      "details": {
+        "query": "a1a4tlix20r2.example.com",
+        "id": 0
+      },
+      "description": "DNS query for 'a1a4tlix20r2.example.com' from 10.0.2.15"
+    },
+    {
+      "id": 114,
+      "timestamp": 1771309314.561228,
+      "type": "DNS Query",
+      "source_ip": "10.0.2.15",
+      "dest_ip": "8.8.8.8",
+      "details": {
+        "query": "ruaudvxgcpjh.example.com",
+        "id": 0
+      },
+      "description": "DNS query for 'ruaudvxgcpjh.example.com' from 10.0.2.15"
+    },
+    {
+      "id": 115,
+      "timestamp": 1771309314.564902,
+      "type": "DNS Query",
+      "source_ip": "10.0.2.15",
+      "dest_ip": "8.8.8.8",
+      "details": {
+        "query": "vbjy6zv09cke.example.com",
+        "id": 0
+      },
+      "description": "DNS query for 'vbjy6zv09cke.example.com' from 10.0.2.15"
+    },
+    {
+      "id": 116,
+      "timestamp": 1771309314.561813,
+      "type": "DNS Query",
+      "source_ip": "10.0.2.15",
+      "dest_ip": "8.8.8.8",
+      "details": {
+        "query": "4rhtle5p0s3z.example.com",
+        "id": 0
+      },
+      "description": "DNS query for '4rhtle5p0s3z.example.com' from 10.0.2.15"
+    },
+    {
+      "id": 117,
+      "timestamp": 1771309314.552466,
+      "type": "DNS Query",
+      "source_ip": "10.0.2.15",
+      "dest_ip": "8.8.8.8",
+      "details": {
+        "query": "xlkzeqpz50zk.example.com",
+        "id": 0
+      },
+      "description": "DNS query for 'xlkzeqpz50zk.example.com' from 10.0.2.15"
+    },
+    {
+      "id": 118,
+      "timestamp": 1771309314.549695,
+      "type": "DNS Query",
+      "source_ip": "10.0.2.15",
+      "dest_ip": "8.8.8.8",
+      "details": {
+        "query": "ilrblkt8lykx.example.com",
+        "id": 0
+      },
+      "description": "DNS query for 'ilrblkt8lykx.example.com' from 10.0.2.15"
+    },
+    {
+      "id": 119,
+      "timestamp": 1771309314.546966,
+      "type": "DNS Query",
+      "source_ip": "10.0.2.15",
+      "dest_ip": "8.8.8.8",
+      "details": {
+        "query": "fyzswjz5bafcsxsq.ghostmantis-lab.net",
+        "id": 0
+      },
+      "description": "DNS query for 'fyzswjz5bafcsxsq.ghostmantis-lab.net' from 10.0.2.15"
+    },
+    {
+      "id": 120,
+      "timestamp": 1771309314.565152,
+      "type": "DNS Query",
+      "source_ip": "10.0.2.15",
+      "dest_ip": "8.8.8.8",
+      "details": {
+        "query": "qfus79fhm7lj.example.com",
+        "id": 0
+      },
+      "description": "DNS query for 'qfus79fhm7lj.example.com' from 10.0.2.15"
+    },
+    {
+      "id": 121,
+      "timestamp": 1771309314.564785,
+      "type": "DNS Query",
+      "source_ip": "10.0.2.15",
+      "dest_ip": "8.8.8.8",
+      "details": {
+        "query": "pf50jrp1tean.example.com",
+        "id": 0
+      },
+      "description": "DNS query for 'pf50jrp1tean.example.com' from 10.0.2.15"
+    },
+    {
+      "id": 122,
+      "timestamp": 1771309314.555788,
+      "type": "DNS Query",
+      "source_ip": "10.0.2.15",
+      "dest_ip": "8.8.8.8",
+      "details": {
+        "query": "puzib098t26r.example.com",
+        "id": 0
+      },
+      "description": "DNS query for 'puzib098t26r.example.com' from 10.0.2.15"
+    },
+    {
+      "id": 123,
+      "timestamp": 1771309314.570614,
+      "type": "DNS Query",
+      "source_ip": "10.0.2.15",
+      "dest_ip": "8.8.8.8",
+      "details": {
+        "query": "google.com",
+        "id": 0
+      },
+      "description": "DNS query for 'google.com' from 10.0.2.15"
+    },
+    {
+      "id": 124,
+      "timestamp": 1771309314.564133,
+      "type": "DNS Query",
+      "source_ip": "10.0.2.15",
+      "dest_ip": "8.8.8.8",
+      "details": {
+        "query": "22otphu3vppp.example.com",
+        "id": 0
+      },
+      "description": "DNS query for '22otphu3vppp.example.com' from 10.0.2.15"
+    },
+    {
+      "id": 125,
+      "timestamp": 1771309314.560247,
+      "type": "DNS Query",
+      "source_ip": "10.0.2.15",
+      "dest_ip": "8.8.8.8",
+      "details": {
+        "query": "2jz0qrrdfx1h.example.com",
+        "id": 0
+      },
+      "description": "DNS query for '2jz0qrrdfx1h.example.com' from 10.0.2.15"
+    },
+    {
+      "id": 126,
+      "timestamp": 1771309314.56527,
+      "type": "DNS Query",
+      "source_ip": "10.0.2.15",
+      "dest_ip": "8.8.8.8",
+      "details": {
+        "query": "omgaxont0u1l.example.com",
+        "id": 0
+      },
+      "description": "DNS query for 'omgaxont0u1l.example.com' from 10.0.2.15"
+    },
+    {
+      "id": 127,
+      "timestamp": 1771309314.562401,
+      "type": "DNS Query",
+      "source_ip": "10.0.2.15",
+      "dest_ip": "8.8.8.8",
+      "details": {
+        "query": "wavt4gdpkqtb.example.com",
+        "id": 0
+      },
+      "description": "DNS query for 'wavt4gdpkqtb.example.com' from 10.0.2.15"
+    },
+    {
+      "id": 128,
+      "timestamp": 1771309314.554404,
+      "type": "DNS Query",
+      "source_ip": "10.0.2.15",
+      "dest_ip": "8.8.8.8",
+      "details": {
+        "query": "nc7o6nrvk5s6.example.com",
+        "id": 0
+      },
+      "description": "DNS query for 'nc7o6nrvk5s6.example.com' from 10.0.2.15"
+    },
+    {
+      "id": 129,
+      "timestamp": 1771309314.559336,
+      "type": "DNS Query",
+      "source_ip": "10.0.2.15",
+      "dest_ip": "8.8.8.8",
+      "details": {
+        "query": "7xnmpjk7mvgn.example.com",
+        "id": 0
+      },
+      "description": "DNS query for '7xnmpjk7mvgn.example.com' from 10.0.2.15"
+    },
+    {
+      "id": 130,
+      "timestamp": 1771309314.563998,
+      "type": "DNS Query",
+      "source_ip": "10.0.2.15",
+      "dest_ip": "8.8.8.8",
+      "details": {
+        "query": "2wg51bk4hmea.example.com",
+        "id": 0
+      },
+      "description": "DNS query for '2wg51bk4hmea.example.com' from 10.0.2.15"
+    },
+    {
+      "id": 131,
+      "timestamp": 1771309314.567692,
+      "type": "DNS Query",
+      "source_ip": "10.0.2.15",
+      "dest_ip": "8.8.8.8",
+      "details": {
+        "query": "google.com",
+        "id": 0
+      },
+      "description": "DNS query for 'google.com' from 10.0.2.15"
+    },
+    {
+      "id": 132,
+      "timestamp": 1771309314.560954,
+      "type": "DNS Query",
+      "source_ip": "10.0.2.15",
+      "dest_ip": "8.8.8.8",
+      "details": {
+        "query": "x3bqkcd8rfaf.example.com",
+        "id": 0
+      },
+      "description": "DNS query for 'x3bqkcd8rfaf.example.com' from 10.0.2.15"
+    },
+    {
+      "id": 133,
+      "timestamp": 1771309314.557742,
+      "type": "DNS Query",
+      "source_ip": "10.0.2.15",
+      "dest_ip": "8.8.8.8",
+      "details": {
+        "query": "ah2956i4ulbr.example.com",
+        "id": 0
+      },
+      "description": "DNS query for 'ah2956i4ulbr.example.com' from 10.0.2.15"
+    },
+    {
+      "id": 134,
+      "timestamp": 1771309314.553292,
+      "type": "DNS Query",
+      "source_ip": "10.0.2.15",
+      "dest_ip": "8.8.8.8",
+      "details": {
+        "query": "rl7h9nditzg4.example.com",
+        "id": 0
+      },
+      "description": "DNS query for 'rl7h9nditzg4.example.com' from 10.0.2.15"
+    },
+    {
+      "id": 135,
+      "timestamp": 1771309314.567216,
+      "type": "DNS Query",
+      "source_ip": "10.0.2.15",
+      "dest_ip": "8.8.8.8",
+      "details": {
+        "query": "kali.org",
+        "id": 0
+      },
+      "description": "DNS query for 'kali.org' from 10.0.2.15"
+    },
+    {
+      "id": 136,
+      "timestamp": 1771309314.547843,
+      "type": "DNS Query",
+      "source_ip": "10.0.2.15",
+      "dest_ip": "8.8.8.8",
+      "details": {
+        "query": "jbjba===.ghostmantis-lab.net",
+        "id": 0
+      },
+      "description": "DNS query for 'jbjba===.ghostmantis-lab.net' from 10.0.2.15"
+    },
+    {
+      "id": 137,
+      "timestamp": 1771309314.554707,
+      "type": "DNS Query",
+      "source_ip": "10.0.2.15",
+      "dest_ip": "8.8.8.8",
+      "details": {
+        "query": "svd7cntwukc3.example.com",
+        "id": 0
+      },
+      "description": "DNS query for 'svd7cntwukc3.example.com' from 10.0.2.15"
+    },
+    {
+      "id": 138,
+      "timestamp": 1771309314.567065,
+      "type": "DNS Query",
+      "source_ip": "10.0.2.15",
+      "dest_ip": "8.8.8.8",
+      "details": {
+        "query": "cloudflare.com",
+        "id": 0
+      },
+      "description": "DNS query for 'cloudflare.com' from 10.0.2.15"
+    },
+    {
+      "id": 139,
+      "timestamp": 1771309314.570271,
+      "type": "DNS Query",
+      "source_ip": "10.0.2.15",
+      "dest_ip": "8.8.8.8",
+      "details": {
+        "query": "microsoft.com",
+        "id": 0
+      },
+      "description": "DNS query for 'microsoft.com' from 10.0.2.15"
+    },
+    {
+      "id": 140,
+      "timestamp": 1771309314.568434,
+      "type": "DNS Query",
+      "source_ip": "10.0.2.15",
+      "dest_ip": "8.8.8.8",
+      "details": {
+        "query": "microsoft.com",
+        "id": 0
+      },
+      "description": "DNS query for 'microsoft.com' from 10.0.2.15"
+    },
+    {
+      "id": 141,
+      "timestamp": 1771309314.569466,
+      "type": "DNS Query",
+      "source_ip": "10.0.2.15",
+      "dest_ip": "8.8.8.8",
+      "details": {
+        "query": "github.com",
+        "id": 0
+      },
+      "description": "DNS query for 'github.com' from 10.0.2.15"
+    },
+    {
+      "id": 142,
+      "timestamp": 1771309314.558945,
+      "type": "DNS Query",
+      "source_ip": "10.0.2.15",
+      "dest_ip": "8.8.8.8",
+      "details": {
+        "query": "ijs97vztx94m.example.com",
+        "id": 0
+      },
+      "description": "DNS query for 'ijs97vztx94m.example.com' from 10.0.2.15"
+    },
+    {
+      "id": 143,
+      "timestamp": 1771309314.570504,
+      "type": "DNS Query",
+      "source_ip": "10.0.2.15",
+      "dest_ip": "8.8.8.8",
+      "details": {
+        "query": "kali.org",
+        "id": 0
+      },
+      "description": "DNS query for 'kali.org' from 10.0.2.15"
+    },
+    {
+      "id": 144,
+      "timestamp": 1771309314.547719,
+      "type": "DNS Query",
+      "source_ip": "10.0.2.15",
+      "dest_ip": "8.8.8.8",
+      "details": {
+        "query": "em7aurz5iahdkxjq.ghostmantis-lab.net",
+        "id": 0
+      },
+      "description": "DNS query for 'em7aurz5iahdkxjq.ghostmantis-lab.net' from 10.0.2.15"
+    },
+    {
+      "id": 145,
+      "timestamp": 1771309314.548714,
+      "type": "DNS Query",
+      "source_ip": "10.0.2.15",
+      "dest_ip": "8.8.8.8",
+      "details": {
+        "query": "qf7ic6y8of0n.example.com",
+        "id": 0
+      },
+      "description": "DNS query for 'qf7ic6y8of0n.example.com' from 10.0.2.15"
+    },
+    {
+      "id": 146,
+      "timestamp": 1771309314.558573,
+      "type": "DNS Query",
+      "source_ip": "10.0.2.15",
+      "dest_ip": "8.8.8.8",
+      "details": {
+        "query": "e4vr7yvla592.example.com",
+        "id": 0
+      },
+      "description": "DNS query for 'e4vr7yvla592.example.com' from 10.0.2.15"
+    },
+    {
+      "id": 147,
+      "timestamp": 1771309314.56969,
+      "type": "DNS Query",
+      "source_ip": "10.0.2.15",
+      "dest_ip": "8.8.8.8",
+      "details": {
+        "query": "google.com",
+        "id": 0
+      },
+      "description": "DNS query for 'google.com' from 10.0.2.15"
+    },
+    {
+      "id": 148,
+      "timestamp": 1771309314.566184,
+      "type": "DNS Query",
+      "source_ip": "10.0.2.15",
+      "dest_ip": "8.8.8.8",
+      "details": {
+        "query": "google.com",
+        "id": 0
+      },
+      "description": "DNS query for 'google.com' from 10.0.2.15"
+    },
+    {
+      "id": 149,
+      "timestamp": 1771309314.561082,
+      "type": "DNS Query",
+      "source_ip": "10.0.2.15",
+      "dest_ip": "8.8.8.8",
+      "details": {
+        "query": "pd4k34qyxik3.example.com",
+        "id": 0
+      },
+      "description": "DNS query for 'pd4k34qyxik3.example.com' from 10.0.2.15"
+    },
+    {
+      "id": 150,
+      "timestamp": 1771309314.549549,
+      "type": "DNS Query",
+      "source_ip": "10.0.2.15",
+      "dest_ip": "8.8.8.8",
+      "details": {
+        "query": "jot72iawgzmu.example.com",
+        "id": 0
+      },
+      "description": "DNS query for 'jot72iawgzmu.example.com' from 10.0.2.15"
+    },
+    {
+      "id": 151,
+      "timestamp": 1771309314.547553,
+      "type": "DNS Query",
+      "source_ip": "10.0.2.15",
+      "dest_ip": "8.8.8.8",
+      "details": {
+        "query": "cyzeqhzzcmxaascd.ghostmantis-lab.net",
+        "id": 0
+      },
+      "description": "DNS query for 'cyzeqhzzcmxaascd.ghostmantis-lab.net' from 10.0.2.15"
+    },
+    {
+      "id": 152,
+      "timestamp": 1771309314.550488,
+      "type": "DNS Query",
+      "source_ip": "10.0.2.15",
+      "dest_ip": "8.8.8.8",
+      "details": {
+        "query": "bmpa8x18w8oj.example.com",
+        "id": 0
+      },
+      "description": "DNS query for 'bmpa8x18w8oj.example.com' from 10.0.2.15"
+    },
+    {
+      "id": 153,
+      "timestamp": 1771309314.550616,
+      "type": "DNS Query",
+      "source_ip": "10.0.2.15",
+      "dest_ip": "8.8.8.8",
+      "details": {
+        "query": "qhnwomrzbzje.example.com",
+        "id": 0
+      },
+      "description": "DNS query for 'qhnwomrzbzje.example.com' from 10.0.2.15"
+    },
+    {
+      "id": 154,
+      "timestamp": 1771309314.570726,
+      "type": "DNS Query",
+      "source_ip": "10.0.2.15",
+      "dest_ip": "8.8.8.8",
+      "details": {
+        "query": "cloudflare.com",
+        "id": 0
+      },
+      "description": "DNS query for 'cloudflare.com' from 10.0.2.15"
+    },
+    {
+      "id": 155,
+      "timestamp": 1771309314.573103,
+      "type": "DNS Query",
+      "source_ip": "10.0.2.15",
+      "dest_ip": "8.8.8.8",
+      "details": {
+        "query": "cloudflare.com",
+        "id": 0
+      },
+      "description": "DNS query for 'cloudflare.com' from 10.0.2.15"
+    },
+    {
+      "id": 156,
+      "timestamp": 1771309314.553042,
+      "type": "DNS Query",
+      "source_ip": "10.0.2.15",
+      "dest_ip": "8.8.8.8",
+      "details": {
+        "query": "vvbxueymb0i1.example.com",
+        "id": 0
+      },
+      "description": "DNS query for 'vvbxueymb0i1.example.com' from 10.0.2.15"
+    },
+    {
+      "id": 157,
+      "timestamp": 1771309314.569915,
+      "type": "DNS Query",
+      "source_ip": "10.0.2.15",
+      "dest_ip": "8.8.8.8",
+      "details": {
+        "query": "github.com",
+        "id": 0
+      },
+      "description": "DNS query for 'github.com' from 10.0.2.15"
+    },
+    {
+      "id": 158,
+      "timestamp": 1771309314.55157,
+      "type": "DNS Query",
+      "source_ip": "10.0.2.15",
+      "dest_ip": "8.8.8.8",
+      "details": {
+        "query": "trhu6qc9mt6b.example.com",
+        "id": 0
+      },
+      "description": "DNS query for 'trhu6qc9mt6b.example.com' from 10.0.2.15"
+    },
+    {
+      "id": 159,
+      "timestamp": 1771309314.555107,
+      "type": "DNS Query",
+      "source_ip": "10.0.2.15",
+      "dest_ip": "8.8.8.8",
+      "details": {
+        "query": "84aoyif5w1bn.example.com",
+        "id": 0
+      },
+      "description": "DNS query for '84aoyif5w1bn.example.com' from 10.0.2.15"
+    },
+    {
+      "id": 160,
+      "timestamp": 1771309314.555907,
+      "type": "DNS Query",
+      "source_ip": "10.0.2.15",
+      "dest_ip": "8.8.8.8",
+      "details": {
+        "query": "ujhskhlc4bv1.example.com",
+        "id": 0
+      },
+      "description": "DNS query for 'ujhskhlc4bv1.example.com' from 10.0.2.15"
+    },
+    {
+      "id": 161,
+      "timestamp": 1771309314.557497,
+      "type": "DNS Query",
+      "source_ip": "10.0.2.15",
+      "dest_ip": "8.8.8.8",
+      "details": {
+        "query": "eqmca01gqko9.example.com",
+        "id": 0
+      },
+      "description": "DNS query for 'eqmca01gqko9.example.com' from 10.0.2.15"
+    },
+    {
+      "id": 162,
+      "timestamp": 1771309314.556174,
+      "type": "DNS Query",
+      "source_ip": "10.0.2.15",
+      "dest_ip": "8.8.8.8",
+      "details": {
+        "query": "stutp5qlgmt8.example.com",
+        "id": 0
+      },
+      "description": "DNS query for 'stutp5qlgmt8.example.com' from 10.0.2.15"
+    },
+    {
+      "id": 163,
+      "timestamp": 1771309314.560017,
+      "type": "DNS Query",
+      "source_ip": "10.0.2.15",
+      "dest_ip": "8.8.8.8",
+      "details": {
+        "query": "6wowyomsyqfy.example.com",
+        "id": 0
+      },
+      "description": "DNS query for '6wowyomsyqfy.example.com' from 10.0.2.15"
+    },
+    {
+      "id": 164,
+      "timestamp": 1771309314.557122,
+      "type": "DNS Query",
+      "source_ip": "10.0.2.15",
+      "dest_ip": "8.8.8.8",
+      "details": {
+        "query": "8bqac5jpb3v6.example.com",
+        "id": 0
+      },
+      "description": "DNS query for '8bqac5jpb3v6.example.com' from 10.0.2.15"
+    },
+    {
+      "id": 165,
+      "timestamp": 1771309314.549311,
+      "type": "DNS Query",
+      "source_ip": "10.0.2.15",
+      "dest_ip": "8.8.8.8",
+      "details": {
+        "query": "aw1gnm7sy154.example.com",
+        "id": 0
+      },
+      "description": "DNS query for 'aw1gnm7sy154.example.com' from 10.0.2.15"
+    }
+  ],
+  "links": []
+}

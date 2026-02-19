@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Geolocation - Cyber Attack Storyteller</title>
+    <link rel="stylesheet" href="/static/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <script src="/static/shared.js"></script>
+</head>
+<body class="geo-page">
+    <div class="container">
+        <header>
+            <h1>Cyber Attack Storyteller</h1>
+            <p>Advanced Geolocation Intelligence Map</p>
+        </header>
+
+        <div id="loading-msg" class="upload-area" style="text-align: center; color: #f39c12;">
+            <i class="fas fa-spinner fa-spin"></i> Loading geolocation data...
+        </div>
+
+        <div id="geo-content" style="display:none;">
+            <!-- Folium Map -->
+            <div style="height: 600px; border-radius: 8px; overflow: hidden; margin-bottom: 20px; box-shadow: 0 2px 10px rgba(0,0,0,0.5);">
+                <iframe id="map-frame" style="width: 100%; height: 100%; border: none;"></iframe>
+            </div>
+
+            <!-- Statistics -->
+            <div class="upload-area" style="margin-bottom: 20px;">
+                <h3>Geolocation Statistics</h3>
+                <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 15px;">
+                    <div style="background: #1a2a3a; padding: 15px; border-radius: 4px; text-align: center;">
+                        <div style="font-size: 24px; color: #e74c3c; font-weight: bold;" id="stat-external">0</div>
+                        <div style="color: #b0bec5; font-size: 0.9rem;">External IPs</div>
+                    </div>
+                    <div style="background: #1a2a3a; padding: 15px; border-radius: 4px; text-align: center;">
+                        <div style="font-size: 24px; color: #2ecc71; font-weight: bold;" id="stat-internal">0</div>
+                        <div style="color: #b0bec5; font-size: 0.9rem;">Internal IPs</div>
+                    </div>
+                    <div style="background: #1a2a3a; padding: 15px; border-radius: 4px; text-align: center;">
+                        <div style="font-size: 24px; color: #3498db; font-weight: bold;" id="stat-countries">0</div>
+                        <div style="color: #b0bec5; font-size: 0.9rem;">Countries</div>
+                    </div>
+                    <div style="background: #1a2a3a; padding: 15px; border-radius: 4px; text-align: center;">
+                        <div style="font-size: 24px; color: #f39c12; font-weight: bold;" id="stat-proxies">0</div>
+                        <div style="color: #b0bec5; font-size: 0.9rem;">Proxies/VPNs</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Detailed List -->
+            <div class="upload-area">
+                <h3>IP Locations Summary (Detailed)</h3>
+                <div id="geo-list" style="max-height: 600px; overflow-y: auto;"></div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        let locations = [];
+
+        function getCountryColor(country) {
+            // Different colors based on threat level
+            const threatCountries = ['Unknown', 'Unable to Determine'];
+            if (threatCountries.includes(country)) return '#95a5a6';
+            return '#e74c3c';
+        }
+
+        async function loadGeoData() {
+            try {
+                const response = await fetch('/api/geoips');
+                const data = await response.json();
+
+                if (data.error) {
+                    document.getElementById('loading-msg').textContent = 'No data available. Analyze a PCAP first.';
+                    return;
+                }
+
+                locations = data.locations || [];
+                await renderMap();
+                renderStats(locations);
+                renderList(locations);
+                document.getElementById('geo-content').style.display = 'block';
+                document.getElementById('loading-msg').style.display = 'none';
+            } catch (err) {
+                console.error('Error:', err);
+                document.getElementById('loading-msg').textContent = 'Error loading geolocation data: ' + err.message;
+            }
+        }
+
+        function renderStats(locations) {
+            const external = locations.filter(l => l.type === 'external').length;
+            const internal = locations.filter(l => l.type === 'private').length;
+            const countries = new Set(locations.filter(l => l.type === 'external' && l.country).map(l => l.country));
+            const proxies = locations.filter(l => l.is_proxy || l.is_hosting).length;
+
+            document.getElementById('stat-external').textContent = external;
+            document.getElementById('stat-internal').textContent = internal;
+            document.getElementById('stat-countries').textContent = countries.size;
+            document.getElementById('stat-proxies').textContent = proxies;
+        }
+
+        async function renderMap() {
+            try {
+                // Fetch Folium map HTML from backend
+                const response = await fetch('/api/geomap');
+                const mapHtml = await response.text();
+                
+                // Inject map HTML into iframe
+                const iframe = document.getElementById('map-frame');
+                iframe.srcdoc = mapHtml;
+            } catch (err) {
+                console.error('Error loading map:', err);
+            }
+        }
+
+        function renderList(locations) {
+            const geoList = document.getElementById('geo-list');
+            const externalLocs = locations
+                .filter(loc => loc.type === 'external')
+                .sort((a, b) => (b.is_proxy ? 1 : 0) - (a.is_proxy ? 1 : 0)) // Proxies first
+                .slice(0, 50);
+
+            if (externalLocs.length === 0) {
+                geoList.innerHTML = '<p style="color: #b0bec5;">Only internal IPs detected. No external connections.</p>';
+                return;
+            }
+
+            geoList.innerHTML = externalLocs.map(loc => {
+                const threatLevel = loc.is_proxy ? 'HIGH' : (loc.is_hosting ? 'MEDIUM' : 'NORMAL');
+                const threatColor = loc.is_proxy ? '#ff6b6b' : (loc.is_hosting ? '#ff8c42' : '#e74c3c');
+
+                return `
+                    <div class="geo-item" style="border-left-color: ${threatColor}; position: relative;">
+                        <div style="display: flex; justify-content: space-between; align-items: start; margin-bottom: 8px;">
+                            <div>
+                                <strong style="color: #fff; font-size: 1.05rem;">${loc.ip}</strong>
+                                ${loc.reverse_dns ? `<div style="font-size: 0.85rem; color: #b0bec5;">${loc.reverse_dns}</div>` : ''}
+                            </div>
+                            ${loc.is_proxy ? `<span style="background: #ff6b6b; color: white; padding: 2px 6px; border-radius: 3px; font-size: 0.75rem;">PROXY</span>` : ''}
+                            ${loc.is_hosting ? `<span style="background: #ff8c42; color: white; padding: 2px 6px; border-radius: 3px; font-size: 0.75rem;">HOSTING</span>` : ''}
+                            ${loc.is_mobile ? `<span style="background: #3498db; color: white; padding: 2px 6px; border-radius: 3px; font-size: 0.75rem;">MOBILE</span>` : ''}
+                        </div>
+                        
+                        <p style="margin: 5px 0; color: #e0e0e0;">
+                            <i class="fas fa-map-marker-alt"></i> <strong>${loc.city || 'N/A'}</strong>, <strong>${loc.region || ''}</strong>, <strong>${loc.country || 'Unknown'}</strong>
+                            ${loc.latitude && loc.longitude ? `<br><small style="color: #b0bec5;">📍 ${Number(loc.latitude).toFixed(4)}, ${Number(loc.longitude).toFixed(4)}</small>` : ''}
+                        </p>
+
+                        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin-top: 8px;">
+                            ${loc.isp ? `<div style="font-size: 0.85rem; color: #b0bec5;"><span style="color: #f39c12;">ISP:</span> ${loc.isp}</div>` : ''}
+                            ${loc.asn ? `<div style="font-size: 0.85rem; color: #b0bec5;"><span style="color: #f39c12;">ASN:</span> ${loc.asn}</div>` : ''}
+                            ${loc.timezone ? `<div style="font-size: 0.85rem; color: #b0bec5;"><span style="color: #3498db;">TZ:</span> ${loc.timezone}</div>` : ''}
+                            ${loc.postal_code ? `<div style="font-size: 0.85rem; color: #b0bec5;"><span style="color: #3498db;">Postal:</span> ${loc.postal_code}</div>` : ''}
+                        </div>
+
+                        ${loc.error ? `<p style="margin-top: 8px; font-size: 0.85rem; color: #ff6b6b;">⚠️ ${loc.error}</p>` : ''}
+                    </div>
+                `;
+            }).join('');
+        }
+
+        loadGeoData();
+    </script>
+
+    <style>
+        .geo-item {
+            background: #0f1a24;
+            border-left: 3px solid #e74c3c;
+            padding: 12px;
+            margin-bottom: 12px;
+            border-radius: 4px;
+            transition: all 0.3s ease;
+        }
+
+        .geo-item:hover {
+            background: #152535;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+        }
+
+        .geo-item p {
+            margin: 5px 0;
+            color: #e0e0e0;
+        }
+
+        .geo-item strong {
+            color: #fff;
+        }
+    </style>
+</body>
+
+</html>

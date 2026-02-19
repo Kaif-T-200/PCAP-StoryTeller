@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search & Filter - Cyber Attack Storyteller</title>
+    <link rel="stylesheet" href="/static/style.css">
+    <script src="/static/shared.js"></script>
+</head>
+<body class="search-page">
+    <div class="container">
+        <header>
+            <h1>Cyber Attack Storyteller</h1>
+            <p>Search & Advanced Filtering</p>
+        </header>
+
+        <div class="upload-area">
+            <div class="search-box">
+                <input type="text" id="search-input" placeholder="Search events...">
+                <select id="filter-field">
+                    <option value="all">All Fields</option>
+                    <option value="ip">IP Address</option>
+                    <option value="domain">Domain/SNI</option>
+                    <option value="type">Event Type</option>
+                </select>
+                <button onclick="performSearch()">Search</button>
+            </div>
+        </div>
+
+        <div id="results-container" style="display:none;">
+            <div class="upload-area">
+                <h3>Search Results (<span id="result-count">0</span>)</h3>
+                <div id="results-list"></div>
+            </div>
+        </div>
+
+        <div id="no-results" class="upload-area" style="display:none; text-align: center; color: #b0bec5;">
+            <p>No results found. Try a different search term.</p>
+        </div>
+
+        <div id="initial-state" class="upload-area" style="text-align: center; color: #b0bec5;">
+            <p>Enter a search term to get started.</p>
+        </div>
+    </div>
+
+    <script>
+        async function performSearch() {
+            const query = document.getElementById('search-input').value.trim();
+            const field = document.getElementById('filter-field').value;
+
+            if (!query) {
+                document.getElementById('initial-state').style.display = 'block';
+                document.getElementById('results-container').style.display = 'none';
+                document.getElementById('no-results').style.display = 'none';
+                return;
+            }
+
+            try {
+                const response = await fetch(`/api/search?q=${encodeURIComponent(query)}&field=${field}`);
+                const data = await response.json();
+
+                if (data.count === 0) {
+                    document.getElementById('initial-state').style.display = 'none';
+                    document.getElementById('results-container').style.display = 'none';
+                    document.getElementById('no-results').style.display = 'block';
+                } else {
+                    displayResults(data.results);
+                    document.getElementById('initial-state').style.display = 'none';
+                    document.getElementById('no-results').style.display = 'none';
+                    document.getElementById('results-container').style.display = 'block';
+                }
+            } catch (err) {
+                alert('Search error: ' + err);
+            }
+        }
+
+        function displayResults(results) {
+            const resultsList = document.getElementById('results-list');
+            document.getElementById('result-count').textContent = results.length;
+
+            resultsList.innerHTML = results.map(r => `
+                <div class="result-item">
+                    <div class="result-header">
+                        <strong>${r.type}</strong>
+                        <span class="result-time">${new Date(r.timestamp * 1000).toLocaleTimeString()}</span>
+                    </div>
+                    <div class="result-flow">
+                        <span class="result-ip">${r.source || 'N/A'}</span>
+                        <span> → </span>
+                        <span class="result-ip">${r.destination || 'N/A'}</span>
+                    </div>
+                    <p class="result-desc">${r.description}</p>
+                </div>
+            `).join('');
+        }
+
+        // Search on Enter key
+        document.getElementById('search-input').addEventListener('keypress', (e) => {
+            if (e.key === 'Enter') performSearch();
+        });
+    </script>
+
+    <style>
+        .search-box {
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .search-box input, .search-box select {
+            background: #2c3e50;
+            color: #ecf0f1;
+            border: 1px solid #34495e;
+            padding: 10px;
+            border-radius: 4px;
+            font-size: 1rem;
+        }
+
+        .search-box input {
+            flex: 1;
+            min-width: 200px;
+        }
+
+        .search-box button {
+            background: #3498db;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+
+        .search-box button:hover {
+            background: #2980b9;
+        }
+
+        .result-item {
+            background: #0f1a24;
+            border-left: 3px solid #3498db;
+            padding: 12px;
+            margin-bottom: 10px;
+            border-radius: 4px;
+        }
+
+        .result-header {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 8px;
+        }
+
+        .result-time {
+            color: #b0bec5;
+            font-size: 0.85rem;
+        }
+
+        .result-flow {
+            color: #2ecc71;
+            margin-bottom: 8px;
+            font-size: 0.9rem;
+        }
+
+        .result-ip {
+            background: #1e2a3a;
+            padding: 2px 6px;
+            border-radius: 3px;
+        }
+
+        .result-desc {
+            color: #b0bec5;
+            font-size: 0.9rem;
+            margin: 0;
+        }
+    </style>
+</body>
+
+</html>
