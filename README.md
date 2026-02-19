@@ -452,7 +452,6 @@ Built with 🔧 using these amazing open-source projects:
 &nbsp;<b></b>&nbsp;
 <a href="https://kaif-t-200.github.io/Portfolio/"><img src="https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=todoist&logoColor=white"></a>
 &nbsp;<b></b>&nbsp;
-<a href="https://pcap-storyteller.onrender.com/"><img src="https://img.shields.io/badge/Live_Demo-Visit_Now-000000?style=for-the-badge&logo=render&logoColor=white"></a>
 </p>
 
 ---
